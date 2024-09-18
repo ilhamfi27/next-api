@@ -1,0 +1,16 @@
+# Page API Router
+you can use this decorator on page api router as well `pages/api/user.ts`
+```ts
+import { createApiRouteHandler } from 'next-app-router-decorators'
+
+class UserHandler {
+  @Get()
+  users() {
+    return 'Some User';
+  }
+}
+
+export default createApiRouteHandler(UserHandler);
+```
+
+when you use Page Router the `@Req()` decorator will returns `NextApiRequest` object instead of use `NextRequest`
