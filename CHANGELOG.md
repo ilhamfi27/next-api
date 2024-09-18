@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/echaoeoen/next-api/compare/v1.0.1...v1.0.2) (2024-09-18)
+
+
+### Bug Fixes
+
+* cookie readme ([8525e86](https://github.com/echaoeoen/next-api/commit/8525e864a21141f9b8814982d34098a7d45fc71a))
+
 ## [1.0.1](https://github.com/echaoeoen/next-api/compare/v1.0.0...v1.0.1) (2024-09-18)
 
 
