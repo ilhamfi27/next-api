@@ -22,7 +22,7 @@ class UserHandler {
   }
 }
 
-export default createHandler(UserHandler);
+module.exports = createHandler(UserHandler);
 ```
 
 ## Request object
@@ -40,7 +40,7 @@ class UserHandler {
   }
 }
 
-export default createHandler(UserHandler);
+module.exports = createHandler(UserHandler);
 ```
 
 In most cases, you won't need to access the request object since we provide decorators for most use cases, such as `@Body` and `@Query`. You can read more about the decorators [here](./decorators)
@@ -60,7 +60,7 @@ class UserHandler {
   }
 }
 
-export default createHandler(UserHandler);
+module.exports = createHandler(UserHandler);
 ```
 
 ## Headers
@@ -77,7 +77,7 @@ class UserHandler {
   }
 }
 
-export default createHandler(UserHandler);
+module.exports = createHandler(UserHandler);
 ```
 
 ## Request payloads
@@ -100,7 +100,7 @@ class UserHandler {
   }
 }
 
-export default createHandler(UserHandler);
+module.exports = createHandler(UserHandler);
 ```
 
 :::note
@@ -159,5 +159,5 @@ class User {
   }
 }
 
-export default createHandler(User);
+module.exports = createHandler(UserHandler);
 ```

@@ -11,7 +11,7 @@ class UserHandler {
   }
 }
 
-export default createHandler(UserHandler);
+module.exports = createHandler(UserHandler);
 ```
 
 ## Introduction
