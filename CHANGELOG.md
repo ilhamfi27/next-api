@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/echaoeoen/next-api/compare/v1.0.0...v1.0.1) (2024-09-18)
+
+
+### Bug Fixes
+
+* app router readme ([0683a41](https://github.com/echaoeoen/next-api/commit/0683a41c4c8f7f2d860a3d43866cc54a828ac337))
+* typo in readme ([2cf57ae](https://github.com/echaoeoen/next-api/commit/2cf57aea5a484d5b0d20a4f581b8b7a57d65fd03))
+
 # 1.0.0 (2024-09-18)
 
 
