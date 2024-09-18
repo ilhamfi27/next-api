@@ -2,7 +2,7 @@
 ## Importing the Decorators
 To use the Cookie and CookieParser decorators, import them from your library like so:
 ```ts
-import { CookieParser } from 'next-app-router-decorator';
+import { CookieParser, Cookies } from 'next-app-router-decorator';
 ```
 ## Usage
 `@CookieParser()`
