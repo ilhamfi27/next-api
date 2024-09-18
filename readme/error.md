@@ -1,7 +1,7 @@
 # Error
 use HttpError to throw the httpStatus
 ```ts
-import HttpError from 'next-app-router-decorators'
+import HttpError from 'next-app-router-decorator'
 class UserHandler {
     @GET()
     getUser() {
@@ -20,7 +20,7 @@ with 400 error status
 ## Custom error
 you can extend the class
 ```ts
-import HttpError from 'next-app-router-decorators'
+import HttpError from 'next-app-router-decorator'
 class NotFoundError extends HttpError{
     constructor(message: string) {
         super(message, 404)
